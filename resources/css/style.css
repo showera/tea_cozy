@@ -1,0 +1,147 @@
+/*Universal Styles*/
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+img {
+  margin: 0;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+a {
+  color: seashell;
+  padding: 0 12.5px;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  z-index: 2;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav span {
+  display: inline-block;
+}
+
+/*content*/
+
+.content {
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*mission*/
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 40px;
+  background-image: url("../medias/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission .text {
+  background-color: black;
+}
+
+/*Featured Teas*/
+
+.featured-teas {
+  padding-top: 70px;
+  width: 1000px;
+}
+
+.first-line, .second-line {
+  display: flex;
+  justify-content: center;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea h4 {
+  padding: 0px;
+}
+
+/* Locations*/
+
+.locations {
+  background-image: url("../medias/img-locations-background.jpg");
+  height: 430px;
+  width: 1200px;
+  margin-top: 60px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-details {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  margin: 5px 20px;
+  background-color: black;
+  padding-bottom: 10px;
+  opacity: 1;
+}
+
+.location h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.address span {
+  display: block;
+  padding: 20px 0px;
+}
+
+/*Footer*/
+
+.contact {
+  height: 200px;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
